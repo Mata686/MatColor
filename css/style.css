@@ -673,8 +673,12 @@ body::before {
     }
 
     .burger {
-        display: block;
-        color: white; /* colore testo (il simbolo ☰) */
+  color: white;
+  background-color: #333; /* sfondo scuro */
+  border-radius: 4px;      /* angoli arrotondati se vuoi */
+  padding: 10px 15px;
+}
+
 }
 
     }
