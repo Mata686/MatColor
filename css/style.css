@@ -674,6 +674,9 @@ body::before {
 
     .burger {
         display: block;
+        color: white; /* colore testo (il simbolo ☰) */
+}
+
     }
 
     /* Burger Animation */
