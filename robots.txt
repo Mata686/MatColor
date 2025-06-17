@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mata686.github.io/MatColor/sitemap.xml
