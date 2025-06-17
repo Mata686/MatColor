@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mat Color</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="image/logo.png" alt="Mat_color-Matarrese Vincenzo" class="nav-logo"></a>
+      Mat color di Matarrese Vincenzo
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Benvenuto</a></li>
+      <li><a href="about.html">Chi sono</a></li>
+      <li><a href="services.html">Servizio</a></li>
+      <li><a href="contact.html">Contattami</a></li>
+    </ul>
+
+    <!-- Burger icon -->
+<div class="burger" id="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Menu -->
+<nav class="menu" id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">Chi siamo</a></li>
+    <li><a href="services.html">Servizi</a></li>
+    <li><a href="contact.html">Contatti</a></li>
+  </ul>
+</nav>
+
+<script>
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('menu');
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+</script>
+
+  </nav>
+</header>
+
+    <main>
+        <section class="hero-section">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Imbiancature su misura<br>per ogni spazio</h1>
+      <p>Esperienza, passione e cura artigianale al servizio della tua casa o azienda.</p>
+      <a href="about.html" class="hero-btn">Conosci la nostra storia</a>
+    </div>
+    <div class="hero-video">
+      <video autoplay muted loop playsinline>
+        <source src="image/a_logo.mp4" type="video/mp4">
+        Il tuo browser non supporta il video HTML5.
+      </video>
+    </div>
+  </div>
+</section>
+
+
+        <section class="image-gallery-showcase">
+            <h2>La nostra galleria</h2>
+            <p class="section-description">Coloriamo spazi, accendiamo emozioni: ogni parete è l’inizio di una nuova storia.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="image/casa.jpeg" alt="Prima/dopo">
+                    <div class="gallery-caption">
+                        <h3>Esterni</h3>
+                        <p>La tua casa riprende colore</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image/sikkens.jpg" alt="Qualità">
+                    <div class="gallery-caption">
+                        <h3>Materiali di qualità</h3>
+
+                        <p>Usiamo solo materiali di alta qualità per garantire risultati duraturi e impeccabili.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image/righe.jpeg" alt="Imbiancature">
+                    <div class="gallery-caption">
+                        <h3>Precisione</h3>
+                        <p>Precisione in ogni dettaglio, perfezione in ogni pennellata.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="image/negoz.jpg">
+                    <div class="gallery-caption">
+                        <h3>Negozi</h3>
+                        <p>Diamo colore alla tua vetrina, perché ogni primo sguardo diventi un invito a entrare.</p>
+                    </div>
+                </div>
+<div class="gallery-item">
+                    <img src="image/mic.jpg" alt="Imbiancature">
+                    <div class="gallery-caption">
+                        <h3>Zone casa</h3>
+                        <p>Diamo colore ai tuoi spazi di condivisione: ogni parete riflette calore, stile e accoglienza.</p>
+                    </div>
+                </div>
+
+<div class="gallery-item">
+                    <img src="image/tif.jpg" alt="Imbiancature">
+                    <div class="gallery-caption">
+                        <h3>Eleganza e professionalità</h3>
+                        <p>Eleganza in ogni finitura, professionalità in ogni gesto.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Trasforma la tua immaginazione in realtà</h2>
+            <p>Con la fiducia dei nostri clienti, siamo cresciuti un passo alla volta.</p>
+            <a href="about.html" class="btn primary-btn">Scopri di più sul nostro viaggio</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Dal 2001 Mat color. Tutti i diritti sono riservati.</p>
+        <p>P.IVA: 00632910774 | EU VAT: IT00632910774</p>
+        <p>Email: vincenzomatarrese@aol.it </p>
+        <p>Indirizzo: Via Dante 10, Cavenago di Brianza (20873)</p>
+        <p>Web developer: <a href="#"> RM Service</a></p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a> |
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servizio</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="image/logo.png" alt="Mat_color-Matarrese Vincenzo" class="nav-logo"></a>
+
+      Mat color di Matarrese Vincenzo
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Benvenuto</a></li>
+      <li><a href="about.html">Chi sono</a></li>
+      <li><a href="services.html">Servizio</a></li>
+      <li><a href="contact.html">Contattami</a></li>
+    </ul>
+
+        <!-- Burger icon -->
+<div class="burger" id="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Menu -->
+<nav class="menu" id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">Chi siamo</a></li>
+    <li><a href="services.html">Servizi</a></li>
+    <li><a href="contact.html">Contatti</a></li>
+  </ul>
+</nav>
+
+<script>
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('menu');
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+</script>
+  </nav>
+</header>
+
+
+    <main>
+    <h1>I servizi</h1>
+    <p>Lista servizi e lavori offerti:</p>
+
+    <section class="service-category service-left">
+        <div class="service-image">
+            <img src="image/imb.jpg" alt="Imbiancatura, Tinteggiatura e Verniciatura">
+        </div>
+        <div class="service-text">
+            <h2>Imbiancatura, tinteggiatura e verniciatura</h2>
+            <p>Offriamo servizi completi di imbiancatura, verniciatura e tinteggiatura per ambienti interni ed esterni. Che si tratti di rinfrescare un'abitazione, valorizzare uno spazio commerciale o proteggere superfici specifiche, lavoriamo con materiali di alta qualità e tecniche professionali per garantire un risultato pulito, duraturo e preciso. Dalle pareti ai soffitti, fino a elementi in legno o metallo, ogni intervento è eseguito con cura artigianale e attenzione ai dettagli.</p>
+        </div>
+    </section>
+
+    <section class="service-category service-right">
+        <div class="service-text">
+            <h2>Rifacimento facciate esterne</h2>
+            <p>Siamo specializzati nel rifacimento di facciate esterne, intervenendo su edifici residenziali, commerciali e industriali. I nostri interventi comprendono il trattamento delle superfici, il ripristino degli intonaci e l’applicazione di rivestimenti resistenti agli agenti atmosferici, migliorando sia l’aspetto estetico sia la protezione strutturale degli edifici.</p>
+        </div>
+        <div class="service-image">
+            <img src="image/est.jpg" alt="Rifacimento facciate esterne">
+        </div>
+    </section>
+
+    <section class="service-category service-left">
+        <div class="service-image">
+            <img src="image/res.jpg" alt="Applicazione resine">
+        </div>
+        <div class="service-text">
+            <h2>Applicazione resine</h2>
+            <p>L’applicazione di resine è una soluzione moderna e versatile per pavimenti e rivestimenti. Utilizziamo resine epossidiche, poliuretaniche e cementizie per creare superfici continue, resistenti e facili da pulire, ideali per abitazioni, uffici, showroom e ambienti industriali. Ogni lavorazione è personalizzata in base alle esigenze estetiche e funzionali del cliente.</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+            <p>Arriviamo da te!!</p>
+            <a href="contact.html" class="btn primary-btn">Richiedi ora un preventivo</a>
+        </section>
+</main>
+
+    <footer>
+        <p>&copy; Dal 2001 Mat color. Tutti i diritti sono riservati.</p>
+        <p>P.IVA: 00632910774 | EU VAT: IT00632910774</p>
+        <p>Email: vincenzomatarrese@aol.it </p>
+        <p>Indirizzo: Via Dante 10, Cavenago di Brianza (20873)</p>
+        <p>Web developer: <a href="#"> RM Service</a></p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a> |
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="image/logo.png" alt="Mat_color-Matarrese Vincenzo" class="nav-logo"></a>
+
+      Mat color di Matarrese Vincenzo
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Benvenuto</a></li>
+      <li><a href="about.html">Chi sono</a></li>
+      <li><a href="services.html">Servizio</a></li>
+      <li><a href="contact.html">Contattami</a></li>
+    </ul>
+
+        <!-- Burger icon -->
+<div class="burger" id="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Menu -->
+<nav class="menu" id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">Chi siamo</a></li>
+    <li><a href="services.html">Servizi</a></li>
+    <li><a href="contact.html">Contatti</a></li>
+  </ul>
+</nav>
+
+<script>
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('menu');
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+</script>
+  </nav>
+</header>
+
+<section class="image-gallery-rows">
+    <h2>Bio</h2>
+
+    <div class="image-row">
+        <div class="image">
+            <img src="image/vinc.jpeg" alt="Foto vincenzo">
+        </div>
+        <div class="text">
+            <h3>Vincenzo Matarrese</h3>
+            <p>Nato nel 1967 a Stigliano, in provincia di Matera, Vincenzo Matarrese ha iniziato il suo percorso lavorativo a soli 16 anni, affiancando il fratello Giovanni, pittore, in cantieri e progetti che gli hanno trasmesso fin da subito il valore del lavoro artigianale e della cura per i dettagli.
+
+Con una carriera che attraversa quattro decenni nel settore dell'arredo e del design, Vincenzo ha collaborato con realtà di rilievo come Mercatone Uno e Casacolor, contribuendo con la sua esperienza, affidabilità e profonda conoscenza tecnica. La sua crescita è stata costante, sempre guidata da una passione autentica per il lavoro ben fatto e per la soddisfazione del cliente.
+
+Oggi, Vincenzo Matarrese rappresenta un punto di riferimento nel mondo dell’arredamento, con una visione pratica, solida e maturata sul campo.</p>
+        </div>
+    </div>
+
+    <div class="image-row">
+        <div class="image">
+            <img src="image/logo.png" alt="Logo">
+        </div>
+        <div class="text">
+            <h3>Il nostro logo</h3>
+            <p>Il logo trasmette l'idea di un'entità che è la "Maestra del Colore" (richiamato dalla corona e dal nome "Matcolor"), ma lo fa con uno spirito audace, anticonvenzionale e radicato nell'espressione artistica moderna, tipica della street art. Il dripping e gli spruzzi comunicano creatività, spontaneità e un approccio diretto e impattante. Il blu, colore predominante, può anche richiamare fiducia, professionalità e stabilità, bilanciando l'energia grezza dello stile street art. È un logo per chi vuole distinguersi con qualità e carattere artistico.</p>
+        </div>
+    </div>
+</section>
+
+
+    <main>
+        <h1>Mat color?</h1>
+        <p>Dietro ogni pennellata c’è la mano esperta di Matarrese Vincenzo, imbianchino di lunga esperienza e artigiano appassionato del proprio lavoro. Attivo nel settore fin da ragazzo, Vincenzo ha costruito nel tempo una solida reputazione fatta di affidabilità, precisione e cura dei dettagli. </p>
+        <p>Oggi mette a disposizione dei suoi clienti non solo le competenze di un imbianchino professionista, ma anche la versatilità di un vero tuttofare, capace di affrontare con serietà e abilità una vasta gamma di interventi. Con alle spalle numerosi clienti soddisfatti, continua ogni giorno a trasformare ambienti con passione, rispetto e attenzione ai desideri di chi si affida a lui..</p>
+        <h2>Missione</h2>
+        <p>Vogliamo essere un punto di riferimento per chi cerca qualità, fiducia e cura artigianale nei lavori di pitturazione. La nostra visione è quella di trasformare ogni spazio — abitazione, negozio o ambiente industriale — in un luogo che parli di bellezza, ordine e personalità. Con passione, competenza e rispetto per il lavoro ben fatto, puntiamo a crescere insieme ai nostri clienti, portando colore, precisione e valore ovunque ci venga chiesto.</p>
+        <h2>valori<h2>
+        <ul>
+            <li>Qualità</li>
+            <li>Precisione in ogni dettaglio</li>
+            <li>Pulizia e rispetto degli ambienti</li>
+            <li>Affidabilità</li>
+            <li>Puntualità</li>
+
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; Dal 2001 Mat color. Tutti i diritti sono riservati.</p>
+        <p>P.IVA: 00632910774 | EU VAT: IT00632910774</p>
+        <p>Email: vincenzomatarrese@aol.it </p>
+        <p>Indirizzo: Via Dante 10, Cavenago di Brianza (20873)</p>
+        <p>Web developer: <a href="#"> RM Service</a></p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a> |
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

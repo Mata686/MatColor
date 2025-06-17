@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contattami</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="image/logo.png" alt="Mat_color-Matarrese Vincenzo" class="nav-logo"></a>
+
+      Mat color di Matarrese Vincenzo
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Benvenuto</a></li>
+      <li><a href="about.html">Chi sono</a></li>
+      <li><a href="services.html">Servizio</a></li>
+      <li><a href="contact.html">Contattami</a></li>
+    </ul>
+
+        <!-- Burger icon -->
+<div class="burger" id="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Menu -->
+<nav class="menu" id="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">Chi siamo</a></li>
+    <li><a href="services.html">Servizi</a></li>
+    <li><a href="contact.html">Contatti</a></li>
+  </ul>
+</nav>
+
+<script>
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('menu');
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+</script>
+  </nav>
+</header>
+
+
+    <main class="content-section">
+        <h1>Contattaci</h1>
+        <p>Richiedi informazioni e preventivi, il nostro ufficio ti risponderà nel minor tempo possibile</p>
+        
+        <div class="contact-grid">
+            <div class="contact-info-box">
+                <h3>Il nostro ufficio</h3>
+                <p><strong>Indirizzo:</strong> Via Dante 10, Cavenago di Brianza (20873)</p>
+                <p><strong>Telefono:</strong> +39 329 414 5340</p>
+                <p><strong>Email:</strong> vincenzomatarrese@aol.it</p>
+                <p><strong>Orari ufficio (solo online):</strong> Lunedì-Venerdì, 9:00 - 17:00, Sabato 9:00 - 14:00 </p>
+            </div>
+
+            <form class="contact-form" action="https://formspree.io/f/mrbkkroe" method="POST">
+            <input type="text" name="_gotcha" style="display:none">
+
+                <h2>Scrivici</h2>
+                <div class="form-group">
+                    <label for="name">Nome e cognome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email di contatto:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Oggetto:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Esponi la tua necessità:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn" >Invia</button>
+            </form>
+        </div>
+    </main>
+
+   <footer>
+        <p>&copy; Dal 2001 Mat color. Tutti i diritti sono riservati.</p>
+        <p>P.IVA: 00632910774 | EU VAT: IT00632910774</p>
+        <p>Email: vincenzomatarrese@aol.it </p>
+        <p>Indirizzo: Via Dante 10, Cavenago di Brianza (20873)</p>
+        <p>Web developer: <a href="#"> RM Service</a></p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a> |
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
