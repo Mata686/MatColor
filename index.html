@@ -30,14 +30,13 @@
     </ul>
 
     <!-- Burger icon -->
-<div class="burger" id="burger">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+<!-- Bottone burger -->
+<button class="burger" id="burger" aria-label="Apri menu" aria-expanded="false" aria-controls="menu">
+  &#9776;
+</button>
 
-<!-- Menu -->
-<nav class="menu" id="menu">
+<!-- Menu mobile -->
+<nav class="menu" id="menu" aria-label="Menu di navigazione">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">Chi siamo</a></li>
@@ -45,6 +44,7 @@
     <li><a href="contact.html">Contatti</a></li>
   </ul>
 </nav>
+
 
 <script>
   const burger = document.getElementById('burger');
